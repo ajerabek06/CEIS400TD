@@ -61,3 +61,9 @@ jobs:
           app-name: 'CEIS400TDv2'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_CC414989A71543AB8DD10BAEB9469590 }}
+
+  env:
+    AZURE_WEBAPP_NAME: CEIS400TDv2    # set this to your application's name
+    AZURE_WEBAPP_PACKAGE_PATH: '.'      # set this to the path to your web app project, defaults to the repository root
+    PYTHON_VERSION: '3.7'                # set this to the Python version to use
+
