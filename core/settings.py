@@ -26,7 +26,8 @@ SECRET_KEY = 'qyu(9l9v%^+r(vt#ecf+36#lis516#3bo5@bo-rd*d%a=!%8#!'
 DEBUG = True
 
 ALLOWED_HOSTS = [
-'ceis400td.azurewebsites.net',
+    'ceis400td.azurewebsites.net',
+    'https://ceis400tdv2.azurewebsites.net',
 ]
 
 
