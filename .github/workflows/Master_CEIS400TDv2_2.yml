@@ -20,10 +20,12 @@ jobs:
     name: Build and Deploy
     runs-on: ubuntu-latest
     steps:
-    - name: Create and start virtual environment
+    - name: python install
       run: |
+        sudo apt install python
         python -m venv venv
         source venv/bin/activate
+        pip install -r requirements.txt
 
     - name: Install dependencies
         run: pip install -r requirements.txt
