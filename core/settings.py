@@ -28,6 +28,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'ceis400td.azurewebsites.net',
     'https://ceis400tdv2.azurewebsites.net',
+    'http://127.0.0.1:8000',
+    '*',
 ]
 
 
